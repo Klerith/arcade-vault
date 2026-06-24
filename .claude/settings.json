@@ -10,6 +10,28 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"/Users/andres/Library/CloudStorage/GoogleDrive-oareyesdeleon11@gmail.com/My Drive/Sand box/claude/campana.mp3\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"/Users/andres/Library/CloudStorage/GoogleDrive-oareyesdeleon11@gmail.com/My Drive/Sand box/claude/campana.mp3\"",
+            "async": true
+          }
+        ]
+      }
     ]
   },
   "enabledPlugins": {
