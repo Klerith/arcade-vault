@@ -859,6 +859,33 @@ a {
   filter: drop-shadow(0 0 8px rgba(132, 204, 22, 0.5));
 }
 
+.cover-pac-man {
+  background: linear-gradient(180deg, #00002a, #0a0a18);
+}
+.cover-pac-man::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 78% 50%, #ffe14d 0 3px, transparent 4px),
+    radial-gradient(circle at 66% 50%, #ffe14d 0 3px, transparent 4px),
+    radial-gradient(circle at 54% 50%, #ffe14d 0 3px, transparent 4px),
+    radial-gradient(circle at 30% 50%, var(--yellow) 0 30px, transparent 31px);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  filter: drop-shadow(0 0 8px rgba(245, 255, 0, 0.5));
+}
+.cover-pac-man::before {
+  content: '';
+  position: absolute;
+  left: 8%;
+  top: 40%;
+  width: 26%;
+  height: 20%;
+  background: #0a0a18;
+  clip-path: polygon(100% 0, 25% 50%, 100% 100%);
+  z-index: 1;
+}
+
 .cover-rana {
   background: linear-gradient(180deg, #001f2a, #0a0a18);
 }

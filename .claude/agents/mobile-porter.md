@@ -35,7 +35,7 @@ Eres el portador mobile de Arcade Vault. Aplicas el patrón de controles táctil
    c. Asegurar que el wrapper del canvas escale en `<md`. Si ya existe un wrapper CRT (`.crt`), añadir las clases faltantes:
 
    ```tsx
-   <div className="crt w-full max-w-[800px] mx-auto">
+   <div className="crt w-full max-w-[800px] mx-auto">su
    ```
 
    Si el juego no usa wrapper CRT, usar un `div` simple con esas clases.

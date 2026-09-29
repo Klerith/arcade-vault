@@ -1,7 +1,7 @@
 ---
 name: spec-impl-game
 description: Implements an approved game spec (Phases 1–4 identical to /spec-impl), then sequentially runs @skin-designer and @mobile-porter on the resulting game to close the full implementation cycle.
-disable-model-invocation: true
+disable-model-invocation: false
 argument-hint: <NN-spec-name>
 allowed-tools: Bash(git status:*), Bash(git branch:*), Bash(git checkout:*), Bash(cat:*), Bash(ls:*)
 ---

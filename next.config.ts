@@ -8,7 +8,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: ['192.168.50.34'],
+  allowedDevOrigins: ['192.168.12.4'],
   headers: async () => [{ source: '/(.*)', headers: securityHeaders }],
 };
 

@@ -1,7 +1,7 @@
 ---
 name: spec-impl
 description: Implements an approved spec. Validates that the state means "Approved" (in any language), creates a git branch named after the spec, switches to it, and starts the implementation step by step with pauses to review diffs.
-disable-model-invocation: true
+disable-model-invocation: false
 argument-hint: <NN-spec-name>
 allowed-tools: Bash(git status:*), Bash(git branch:*), Bash(git checkout:*), Bash(cat:*), Bash(ls:*)
 ---
